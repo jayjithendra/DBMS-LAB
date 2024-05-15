@@ -1,0 +1,43 @@
+C:\Users\student\Documents\Visual Studio 2012\Projects\Banking Application\Banking Application\bin\Debug\Banking Application.exe.config
+C:\Users\student\Documents\Visual Studio 2012\Projects\Banking Application\Banking Application\bin\Debug\Banking Application.exe
+C:\Users\student\Documents\Visual Studio 2012\Projects\Banking Application\Banking Application\bin\Debug\Banking Application.pdb
+C:\Users\student\Documents\Visual Studio 2012\Projects\Banking Application\Banking Application\obj\Debug\Banking Application.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\Visual Studio 2012\Projects\Banking Application\Banking Application\obj\Debug\Banking_Application.Form1.resources
+C:\Users\student\Documents\Visual Studio 2012\Projects\Banking Application\Banking Application\obj\Debug\Banking_Application.Properties.Resources.resources
+C:\Users\student\Documents\Visual Studio 2012\Projects\Banking Application\Banking Application\obj\Debug\Banking Application.csproj.GenerateResource.Cache
+C:\Users\student\Documents\Visual Studio 2012\Projects\Banking Application\Banking Application\obj\Debug\Banking Application.exe
+C:\Users\student\Documents\Visual Studio 2012\Projects\Banking Application\Banking Application\obj\Debug\Banking Application.pdb
+C:\Users\student\Documents\Visual Studio 2012\Projects\Banking Application\Banking Application\obj\Debug\Banking_Application.Form2.resources
+C:\Users\student\Documents\Visual Studio 2012\Projects\Banking Application\Banking Application\obj\Debug\Banking_Application.Form3.resources
+E:\DBMS_Lab\visual studio\Banking Application\Banking Application\bin\Debug\Banking Application.exe.config
+E:\DBMS_Lab\visual studio\Banking Application\Banking Application\bin\Debug\Banking Application.exe
+E:\DBMS_Lab\visual studio\Banking Application\Banking Application\bin\Debug\Banking Application.pdb
+E:\DBMS_Lab\visual studio\Banking Application\Banking Application\obj\Debug\Banking Application.csproj.AssemblyReference.cache
+E:\DBMS_Lab\visual studio\Banking Application\Banking Application\obj\Debug\Banking_Application.Form1.resources
+E:\DBMS_Lab\visual studio\Banking Application\Banking Application\obj\Debug\Banking_Application.Form2.resources
+E:\DBMS_Lab\visual studio\Banking Application\Banking Application\obj\Debug\Banking_Application.Form3.resources
+E:\DBMS_Lab\visual studio\Banking Application\Banking Application\obj\Debug\Banking_Application.Properties.Resources.resources
+E:\DBMS_Lab\visual studio\Banking Application\Banking Application\obj\Debug\Banking Application.csproj.GenerateResource.cache
+E:\DBMS_Lab\visual studio\Banking Application\Banking Application\obj\Debug\Banking Application.csproj.CoreCompileInputs.cache
+E:\DBMS_Lab\visual studio\Banking Application\Banking Application\obj\Debug\Banking Application.exe
+E:\DBMS_Lab\visual studio\Banking Application\Banking Application\obj\Debug\Banking Application.pdb
+D:\220953680\Lab2\Lab2.2\Banking Application\bin\Debug\Banking Application.exe.config
+D:\220953680\Lab2\Lab2.2\Banking Application\obj\Debug\Banking Application.exe
+D:\220953680\Lab2\Lab2.2\Banking Application\obj\Debug\Banking Application.pdb
+D:\220953680\Lab2\Banking Application\Banking Application\bin\Debug\Banking Application.exe.config
+D:\220953680\Lab2\Banking Application\Banking Application\obj\Debug\Banking Application.exe
+D:\220953680\Lab2\Banking Application\Banking Application\obj\Debug\Banking Application.pdb
+D:\220953680\Lab2\Banking Application\Banking Application\bin\Debug\Banking Application.exe
+D:\220953680\Lab2\Banking Application\Banking Application\bin\Debug\Banking Application.pdb
+D:\220953680\Lab2\Banking Application\Banking Application\bin\Debug\mscorlib.dll
+D:\220953680\Lab2\Banking Application\Banking Application\bin\Debug\normidna.nlp
+D:\220953680\Lab2\Banking Application\Banking Application\bin\Debug\normnfc.nlp
+D:\220953680\Lab2\Banking Application\Banking Application\bin\Debug\normnfd.nlp
+D:\220953680\Lab2\Banking Application\Banking Application\bin\Debug\normnfkc.nlp
+D:\220953680\Lab2\Banking Application\Banking Application\bin\Debug\normnfkd.nlp
+D:\220953680\Lab2\Banking Application\Banking Application\obj\Debug\Banking Application.csprojResolveAssemblyReference.cache
+D:\220953680\Lab2\Banking Application\Banking Application\obj\Debug\Banking_Application.Form1.resources
+D:\220953680\Lab2\Banking Application\Banking Application\obj\Debug\Banking_Application.Form2.resources
+D:\220953680\Lab2\Banking Application\Banking Application\obj\Debug\Banking_Application.Form3.resources
+D:\220953680\Lab2\Banking Application\Banking Application\obj\Debug\Banking_Application.Properties.Resources.resources
+D:\220953680\Lab2\Banking Application\Banking Application\obj\Debug\Banking Application.csproj.GenerateResource.Cache
