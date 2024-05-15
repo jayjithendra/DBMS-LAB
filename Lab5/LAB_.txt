@@ -1,0 +1,113 @@
+create table STUDENT
+( regno varchar(20),
+ name varchar(50),
+ major varchar(20),
+ bdate date,
+ PRIMARY KEY(regno));
+
+create table COURSE(
+  course# int,
+  cname varchar(30),
+  dept varchar(30),
+  PRIMARY KEY(course#));
+
+create table ENROLL(
+  2  regno varchar(20),
+  3  course# int,
+  4  PRIMARY KEY(regno,course#),
+  5  FOREIGN KEY(regno) REFERENCES STUDENT(regno) ON DELETE CASCADE,
+  6  FOREIGN KEY(course#) REFERENCES COURSE(course#) ON DELETE CASCADE);
+
+create table TEXT(
+  2  book_isbn int,
+  3  booktitle varchar(50),
+  4  publisher varchar(50),
+  5  author varchar(50),
+  6  PRIMARY KEY (book_isbn));
+
+create table BOOK_ADOPTION(
+  2  course# int,
+  3  sem int,
+  4  book_isbn int,
+  5  PRIMARY KEY(course#,book_isbn),
+  6  FOREIGN KEY(course#) REFERENCES COURSE(course#) ON DELETE CASCADE,
+  7  FOREIGN KEY(book_isbn) REFERENCES TEXT(book_isbn) ON DELETE CASCADE);
+
+insert into STUDENT
+  2  values('MC123','Shreya','MassCom','12MAR2022');
+insert into STUDENT
+  2  values('L123','Aishwarya','LAW','15JAN2022');
+insert into STUDENT
+  2  values('F123','Akhil','Finance','14JAN2022');
+ insert into STUDENT
+  2  values('A123','Lakshmi','Arts','16MAR2022');
+insert into STUDENT
+  2  values('M123','Hitha','PreMed','27MAR2022');
+insert into STUDENT
+  2  values('CS123','Jay','CompSci','19SEP2022');
+
+insert into COURSE
+values(31,'Business Law','Law and Order');
+insert into COURSE
+  2  values(32,'MacroEco','Economics');
+insert into COURSE
+  2  values(33,'Pre Revolution Art','Art History');
+insert into COURSE
+  2  values(34,'BioChem','Biology');
+insert into COURSE
+  2  values(35,'OOP','Computer');
+
+insert into ENROLL
+values('L123',31);
+insert into ENROLL
+  2  values('F123',31);
+insert into ENROLL
+  2  values('F123',32);
+insert into ENROLL
+  2  values('A123',33);
+insert into ENROLL
+  2  values('M123',34);
+insert into ENROLL
+  2  values('CS123',35);
+
+insert into TEXT
+values(12,'Introduction to Business','ORSPUB','BANDI');
+insert into TEXT
+  2  values(13,'Business Law','ORSPUB','PAI');
+insert into TEXT
+  2  values(14,'World Of Biology','SAPUB','MENON');
+insert into TEXT
+  2  values(15,'PreRevolution Art','WBPUB','RAJA');
+insert into TEXT
+  2  values(16,'JAVA For Newbies','MSPUB','PARASHER');
+
+insert into BOOK_ADOPTION
+values(31,1,12);
+ insert into BOOK_ADOPTION
+  2  values(31,2,13);
+insert into BOOK_ADOPTION
+  2  values(32,4,12);
+insert into BOOK_ADOPTION
+  2  values(33,3,15);
+insert into BOOK_ADOPTION
+  2  values(34,1,14);
+
+a. select cname from course
+  2  where course# in(select course# from book_adoption
+  3  group by course#
+  4  having count(book_isbn)>1);
+
+b.select dept from course
+  2  where course# in(select course# from book_adoption
+  3  where book_isbn in(select book_isbn from TEXT
+  4  where publisher='ORSPUB'));
+
+c.select name from student
+  2  where regno in(select regno from enroll
+  3  group by regno
+  4  having count(course#)>1);
+
+d.select name from student
+  2  where regno not in(select regno from enroll);
+
+e.
